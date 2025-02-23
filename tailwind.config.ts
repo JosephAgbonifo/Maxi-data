@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        maxibg: "var(--maxi)",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        maxiLight: "var(--maxiLight)",
       },
     },
   },
